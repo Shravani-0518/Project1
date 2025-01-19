@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/styles.css">
+    <title>Car Auction Document Upload</title>
+</head>
+<body>
+    <h1>Upload Car Auction Document</h1>
+    <h4>Please upload the document with .pdf format only
+    </h4>
+    <form action="/upload"  method="POST" enctype="multipart/form-data">
+        <input type="file" align = "center" name="file" accept=".pdf" required><br><br><br>
+        <button align="center" type="submit">Upload</button>
+    </form>
+    <br><br>
+    <img src="/static/bluecar.png" alt="Car" width="800">
+</body>
+</html> 
+
+

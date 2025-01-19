@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(54, 226, 245);
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center; 
+    align-items: center;
+    justify-content: center; 
+    height: 100vh;   
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
